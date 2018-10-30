@@ -69,3 +69,12 @@
    }
  }
 )
+
+(local hyper (require 'hyper'))
+
+(require 'autolayout')
+(require 'movewindows')
+(require 'pomodoro')
+
+; reload hammerspoon
+(: hyper :bind {}, 'r', nil, (fn [] (: hs :reload)))
