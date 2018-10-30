@@ -1,3 +1,6 @@
+local fennel = require("Fennel/Fennel")
+fennel.dofile("init.fnl")
+
 config = {}
 
 -- Hyper+key for all the below are handled in some other software
