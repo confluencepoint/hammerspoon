@@ -61,5 +61,11 @@
       'preferred_display' 1
     }
    }
+
+   ; Hyper+key for all the below are handled in some other software
+   ; "fall through".
+   'hyper_fall_through' {
+     'c', 'space', '\\', 'p', '\'', 't'
+   }
  }
 )
