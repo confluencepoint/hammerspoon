@@ -23,7 +23,7 @@ end
 
 -- Apps that I want to jump to
 for _, app in pairs(config.applications) do
-  hyper:bind({}, app.hyper_shortcut, function() launch(app.name); end)
+  hyper:bind({}, app.hyper_shortcut, function() launch(app.identifier); end)
 end
 
 return hyper
